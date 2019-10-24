@@ -1,6 +1,6 @@
 variable "container_name" {
   type    = "string"
-  default = "webinar-web-app"
+  default = "dmeszaro-web-app"
 }
 
 variable "container_port" {
@@ -10,7 +10,7 @@ variable "container_port" {
 
 variable "container_desired_count" {
   type    = "string"
-  default = "2"
+  default = "3"
 }
 
 variable "container_desired_cpu" {
@@ -25,7 +25,7 @@ variable "container_desired_memory" {
 
 variable "ecs_cluster_name" {
   type    = "string"
-  default = "webinar"
+  default = "dark-cz-terraform"
 }
 
 variable "aws_region" {
@@ -40,7 +40,7 @@ variable "alb_name" {
 
 variable "github_username" {
   type    = "string"
-  default = "cobusbernard"
+  default = "darko-mesaros"
 }
 
 variable "github_repo_name" {
